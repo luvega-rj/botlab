@@ -6,7 +6,7 @@ function BotCollection() {
     const [listedBots, setlistedBots] = useState([]);
      const [filter, setFilter] = useState('');
     useEffect(() => {
-        fetch ("http://localhost:8001/bots")
+        fetch ("https://new-repository.onrender.com/bots")
         .then(response => response.json())
         .then(data => setBots(data))
         .catch(err => console.log(err))
