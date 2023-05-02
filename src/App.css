@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+/* Table style */
+.TABLE {
+margin: auto;
+width: 80%;
+padding: 20px;
+border: 1px solid #ccc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.TABLE1 {
+width: 100%;
+border-collapse: collapse;
+text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th,
+td {
+padding: 12px 15px;
+border: 1px solid #ddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+th {
+background-color: #f2f2f2;
+font-size: 18px;
+font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+tr:nth-child(even) {
+background-color: #f2f2f2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:hover {
+background-color: #ddd;
+}
+
+/* Filter input style */
+.FILTER1 {
+display: inline-block;
+font-size: 18px;
+margin-right: 10px;
+}
+
+.INPUT1 {
+padding: 8px 10px;
+font-size: 18px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+/* List and Release button style */
+.BTN1,
+.BTN2 {
+background-color: #4caf50;
+color: white;
+border: none;
+padding: 8px 16px;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.BTN2 {
+background-color: #f44336;
+}
+
+.BTN3 {
+background-color: #f44336;
+color: white;
+border: none;
+padding: 8px 16px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+/* YourBotArmy component style */
+.ARMORY {
+margin-top: 20px;
+text-align: center;
+}
+
+.BOT {
+display: inline-block;
+margin-right: 10px;
+}
+
+.BOT_IMG {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 10px;
+}
+
+.BOT_NAME {
+font-size: 18px;
+font-weight: bold;
+margin-right: 10px;
+}
+
+.BOT_HEALTH {
+font-size: 16px;
+margin-right: 10px;
+}
+
+.BOT_DAMAGE {
+font-size: 16px;
+margin-right: 10px;
+}
+
+.BOT_ARMOR {
+font-size: 16px;
+margin-right: 10px;
+}
+
+.BOT_CLASS {
+font-size: 16px;
+margin-right: 10px;
+}
+
+.BOT_RELEASE {
+background-color: grey;
+color: white;
+border: none;
+padding: 8px 16px;
+border-radius: 4px;
+cursor: pointer;
 }
