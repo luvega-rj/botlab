@@ -29,6 +29,8 @@ Note that you will need to have Node.js and npm installed on your system.
 Contributions are welcome! If you find a bug or have a feature request, please open an issue. If you want to contribute code, please fork the repository, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for detail
 
-https://github.com/luvega-rj/botlab
+
+
+https://botlab-luvega-rj.vercel.app/
